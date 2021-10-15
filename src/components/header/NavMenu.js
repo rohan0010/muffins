@@ -400,11 +400,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               {strings["collection"]}
             </Link>
           </li> */}
-           {/* <li>
+           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {strings["home"]}
             </Link>
-          </li> */}
+          </li>
          
           <li>
             <Link to={process.env.PUBLIC_URL + "/about"}>

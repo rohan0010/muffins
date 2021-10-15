@@ -61,41 +61,7 @@ const Contact = ({ location }) => {
                     <div className="contact-info-dec">
                     
                       <p> Muffin Shield LLP
-                        <br/>
-                      Registered Office A 401,                        <br/>
-                      4TH FLOOR TOWER A                         <br/>
-                      PRISTINE AVENUE GC II GAUR 
-         CITY
-
-, 
-GREATER NOIDA ,                        <br/>
-Uttar Pradesh,201306,                        <br/>
-
-
-PAN - ABQFM0866R
-<br/>
-
-MAIN OBJECT  –                          <br/>
-BUSINESS OF HOTELS , RESTAURANT, HOLIDAY CAMPS, GUEST HOUSE, EVENT MANAGEMENT  -----OWNED AND LEASE OUT PROPERTIES FOR THE SUPPORT OF MAIN OBJECT 
-<br/>
-
-Director details : 
-<br/>
-
-PIYUS ARORA                       <br/>
-– DIN- 09054059                       <br/>
-PAN – AGMPA7492E,                         <br/>
- ADHAAR – 3255-7987-6540                        <br/>
-
-Email Id- piyush.sqft@gmail.com  ,                        <br/>
- Ph No. 9716022280
- <br/>
-
- PAKHEE TYAGI                         <br/>
-- DIN-  06776043  ,                        <br/>
- PAN- ARPRT3735K, 
-Ph. No. 9818880818,                        <br/>
- Email Id - pakheetyagi@gmail.com                        <br/>
+                   
 
 
  </p>

@@ -3,21 +3,21 @@
     "id": 1,
     "title": "",
     "subtitle": "",
-    "image": "/assets/img/banner/download.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/banner/aaaa.jpg",
+    "url": ""
   },
   {
     "id": 3,
     "title": "",
     "subtitle": "",
-    "image": "/assets/img/banner/images(1).jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/banner/bbbb.jpg",
+    "url": ""
   },
   {
     "id": 4,
     "title": "",
     "subtitle": "",
-    "image": "/assets/img/banner/images.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/banner/cccc.jpg",
+    "url": ""
   }
 ]

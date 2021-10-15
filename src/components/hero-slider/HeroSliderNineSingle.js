@@ -9,9 +9,11 @@ const HeroSliderNineSingle = ({ data, sliderClass }) => {
         sliderClass ? sliderClass : ""
       }`}
       style={{ backgroundImage: `url(${process.env.PUBLIC_URL + data.image})`,
-    width:"500px",
-  height:"500px",
-objectFit:"cover" }}
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      objectFit:'contain',
+      backgroundPosition: 'center',
+      height: window.innerWidth<= 760?'25vh':'80vh',}}
     >
       <div className="container">
         <div className="row">
