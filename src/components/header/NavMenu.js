@@ -415,11 +415,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           Registration For Others
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to={process.env.PUBLIC_URL + "/about"}>
               {strings["about_us"]}
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}
@@ -428,6 +428,16 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
           <li>
             <Link to={process.env.PUBLIC_URL + "/donate"}>
           Donate
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/about"}>
+          Problem
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/solution"}>
+          Solution
             </Link>
           </li>
         </ul>

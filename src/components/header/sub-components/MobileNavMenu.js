@@ -337,11 +337,21 @@ const MobileNavMenu = ({ strings }) => {
             </li>
           </ul>
         </li> */}
-        <li>
+        {/* <li>
           <Link to={process.env.PUBLIC_URL + "/about"}>
             {strings["about_us"]}
           </Link>
-        </li>
+        </li> */}
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/selfregistration"}>
+            Self Registration
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/registrationforothers"}>
+          Registration For Others
+            </Link>
+          </li>
         {/* <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/"}>{strings["pages"]}</Link>
           <ul className="sub-menu">
@@ -424,6 +434,21 @@ const MobileNavMenu = ({ strings }) => {
             {strings["contact_us"]}
           </Link>
         </li>
+        <li>
+            <Link to={process.env.PUBLIC_URL + "/donate"}>
+          Donate
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/about"}>
+          Problem
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/solution"}>
+          Solution
+            </Link>
+          </li>
       </ul>
     </nav>
   );

@@ -26,6 +26,7 @@ const ProductTabRight = lazy(() =>
 const LoginRegister1 = lazy(() => import("./pages/other/LoginRegister1"));
 const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const Donate = lazy(() => import("./pages/other/Donate"));
+const Solution = lazy(() => import("./pages/other/Solution"));
 
 const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
 const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
@@ -95,6 +96,11 @@ const App = (props) => {
                   exact
                   path={process.env.PUBLIC_URL + "/donate"}
                   component={Donate}
+                />
+                        <Route
+                  exact
+                  path={process.env.PUBLIC_URL + "/solution"}
+                  component={Solution}
                 />
                 {/* Homepages */}
         
