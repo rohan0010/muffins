@@ -23,6 +23,10 @@ const ProductTabLeft = lazy(() =>
 const ProductTabRight = lazy(() =>
   import("./pages/shop-product/ProductTabRight")
 );
+const LoginRegister1 = lazy(() => import("./pages/other/LoginRegister1"));
+const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
+const Donate = lazy(() => import("./pages/other/Donate"));
+
 const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
 const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
 const ProductFixedImage = lazy(() =>
@@ -77,7 +81,21 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/"}
                   component={HomeFashionTwo}
                 />
-
+                   <Route
+                  exact
+                  path={process.env.PUBLIC_URL + "/selfregistration"}
+                  component={LoginRegister1}
+                />
+                        <Route
+                  exact
+                  path={process.env.PUBLIC_URL + "/registrationforothers"}
+                  component={LoginRegister}
+                />
+          <Route
+                  exact
+                  path={process.env.PUBLIC_URL + "/donate"}
+                  component={Donate}
+                />
                 {/* Homepages */}
         
                 <Route
